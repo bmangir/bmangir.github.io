@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berkant Mangır | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span class="brand-text">Berkant Mangır</span>
+        </div>
+        <ul class="nav-tabs">
+            <li class="nav-tab active" data-tab="about">
+                <i class="fas fa-user"></i>
+                <span>About Me</span>
+            </li>
+            <li class="nav-tab" data-tab="experience">
+                <i class="fas fa-briefcase"></i>
+                <span>Experience</span>
+            </li>
+            <li class="nav-tab" data-tab="skills">
+                <i class="fas fa-code"></i>
+                <span>Skills</span>
+            </li>
+            <li class="nav-tab" data-tab="projects">
+                <i class="fas fa-rocket"></i>
+                <span>Projects</span>
+            </li>
+            <li class="nav-tab" data-tab="contact">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+            </li>
+        </ul>
+        <a href="berkant_mangir_cv.pdf" target="_blank" rel="noopener noreferrer" class="download-cv">
+            <i class="fas fa-file-pdf"></i>
+            <span>View CV</span>
+        </a>
+    </nav>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- About Section -->
+        <section class="tab-content active" id="about">
+            <div class="hero-section">
+                <div class="hero-text">
+                    <p class="greeting">Hi, I am</p>
+                    <h1 class="name">Berkant <span class="highlight">Mangır</span></h1>
+                    <h2 class="title">Computer Engineer</h2>
+                    <p class="bio">
+                        Computer Engineering graduate with a strong foundation in data related fields and distributed systems.
+                        Experienced in building scalable batch and real-time data pipelines using Apache Spark, Kafka, SQL,
+                        BigQuery and Cloud technologies. Proven track record in developing recommendation systems and AIassisted backend tools. Passionate about solving complex data challenges and optimizing large-scale
+                        data architectures.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">0+</span>
+                            <span class="stat-label">Years of Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Completed Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/bmangir" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/berkant-mangir/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:berkantmangir23@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="profile.png" alt="Berkant Mangır" class="profile-photo">
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="tab-content" id="experience">
+            <h2 class="section-title">
+                <i class="fas fa-briefcase"></i>
+                Experience
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Application Engineer Intern</h3>
+                            <span class="company">IBTECH</span>
+                        </div>
+                        <span class="date">March 2025 - September 2025</span>
+                        <p class="description">
+                            Developed AI-assisted UI generation system for WPF screens using company frameworks.
+                            Contributed to prompt engineering and ruleset design for automated screen creation.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">XAML</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Data Engineer Intern</h3>
+                            <span class="company">Goaltech</span>
+                        </div>
+                        <span class="date">June 2024 - August 2024</span>
+                        <p class="description">
+                            AWS Data Pipeline, Data Warehouse, Data Lake and Big Data tools.
+                            MongoDB, Airflow, Python, SQL and NoSQL.
+                            Developed a data pipeline for the project which is like TradingView.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">AWS</span>
+                            <span class="tag">S3</span>
+                            <span class="tag">EC2</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">NoSQL</span>
+                            <span class="tag">Airflow</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-title" style="margin-top: 60px;">
+                <i class="fas fa-graduation-cap"></i>
+                Education
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Computer Engineering</h3>
+                            <span class="company">Hacettepe University</span>
+                        </div>
+                        <span class="date">2021 - 2025</span>
+                        <p class="description">
+                            Bachelor Degree. Data Structures, Algorithms, Software Engineering, Data Management,
+                            RDBMS and Artificial Intelligence(NLP).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="tab-content" id="skills">
+            <h2 class="section-title">
+                <i class="fas fa-code"></i>
+                Technical Skills
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-laptop-code"></i>
+                        Programming Languages
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-database"></i>
+                        Data Engineering
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Apache Spark</span>
+                        <span class="skill-tag">Apache Kafka</span>
+                        <span class="skill-tag">Apache Airflow</span>
+                        <span class="skill-tag">PySpark</span>
+                        <span class="skill-tag">ETL Pipelines</span>
+                        <span class="skill-tag">HDFS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i>
+                        Databases
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">NoSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fab fa-aws"></i>
+                        Cloud & DevOps
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS (S3, EC2)</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Tools & Frameworks
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-title" style="margin-top: 60px;">
+                <i class="fas fa-language"></i>
+                Languages
+            </h2>
+            <div class="languages-grid">
+                <div class="language-card">
+                    <span class="language-name">Turkish</span>
+                    <span class="language-level">Native</span>
+                </div>
+                <div class="language-card">
+                    <span class="language-name">English</span>
+                    <span class="language-level">Upper Intermediate</span>
+                </div>
+                <div class="language-card">
+                    <span class="language-name">German</span>
+                    <span class="language-level">Beginner</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="tab-content" id="projects">
+            <h2 class="section-title">
+                <i class="fas fa-rocket"></i>
+                Projects
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Website</h3>
+                        <p class="project-description">
+                            Personalized recommendation system in real-time analysis of user behavior.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Apache Spark</span>
+                            <span>Apache Kafka</span>
+                            <span>Flask</span>
+                            <span>MongoDB</span>
+                            <span>PostgreSQL</span>
+                            <span>Redis</span>
+                            <span>Pinecone</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/bmangir/hacom" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                            <a href="#" class="project-link primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo (Coming Soon)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Projects with Apache Spark</h3>
+                        <p class="project-description">
+                            Example projects with Apache Spark.
+                        </p>
+                        <div class="project-tech">
+                            <span>Apache Spark</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/bmangir/apache-spark-example-projects" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Data Analysis Projects</h3>
+                        <p class="project-description">
+                            Data analysis projects with Python, pyspark and SQL.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Apache Spark</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/bmangir/data-analysis-examples" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Video Recommendation System</h3>
+                        <p class="project-description">
+                            A hybrid video recommendation system combining Two-Tower Neural Networks, Collaborative Filtering (ALS),
+                            and Trending Analysis.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Apache Spark</span>
+                            <span>PostgreSQL</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/bmangir/video-recommendation-systems" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-stream"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">PySpark Project</h3>
+                        <p class="project-description">
+                            A PySpark pipeline that transforms raw e-commerce data (impressions, clicks, add-to-carts, orders) 
+                            into training-ready format for a PyTorch transformer model that powers the "Our top choices carousel" 
+                            recommendation system.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Apache Spark</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/bmangir/pyspark-coding-challenge" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Blast Game</h3>
+                        <p class="project-description">
+                            A simple 2D game where the player controls a rocket and avoids obstacles.
+                        </p>
+                        <div class="project-tech">
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>UI/UX Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/bmangir/rock_obstacle_blast_game" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="tab-content" id="contact">
+            <h2 class="section-title">
+                <i class="fas fa-envelope"></i>
+                İletişim
+            </h2>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Me</h3>
+                    <p>
+                        You can contact me for new projects, job opportunities, or just to say hello.
+                    </p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="label">Email</span>
+                                <a href="mailto:berkantmangir23@gmail.com">
+                                    berkantmangir23@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="label">Location</span>
+                                <span>İstanbul, Türkiye</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="https://github.com/bmangir" target="_blank" class="social-btn">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/berkant-mangir/" target="_blank" class="social-btn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Berkant Mangır. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
